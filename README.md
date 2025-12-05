@@ -1,1 +1,1 @@
-![Animated banner](./assets/animated-banner.svg)
+![Neural Network](./assets/neural-network.svg)
