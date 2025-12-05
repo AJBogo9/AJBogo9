@@ -1,5 +1,7 @@
 ## Hi there 👋
 
+<img src="./assets/animated-banner.svg" alt="Animated banner" width="100%">
+
 <!--
 **AJBogo9/AJBogo9** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
