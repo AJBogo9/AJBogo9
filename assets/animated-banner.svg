@@ -1,60 +1,128 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="1200" height="360" role="img" aria-label="Animated waves background">
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 1200 360"
+  width="100%"
+  height="auto"
+  preserveAspectRatio="xMidYMid slice"
+  role="img"
+  aria-labelledby="title desc"
+>
+  <title id="title">Seamless animated waves background</title>
+  <desc id="desc">
+    A dark gradient background with three continuous wave layers moving horizontally in a perfectly seamless loop, with subtle vertical bobbing. Respects reduced motion preferences.
+  </desc>
+
+  <style>
+    :root {
+      --bg-start: #0f172a;
+      --bg-end:   #1e293b;
+
+      --wave1-start: #38bdf8;
+      --wave1-end:   #22d3ee;
+      --wave1-opacity: 0.35;
+
+      --wave2-start: #a78bfa;
+      --wave2-end:   #60a5fa;
+      --wave2-opacity: 0.28;
+
+      --wave3-start: #f472b6;
+      --wave3-end:   #fb7185;
+      --wave3-opacity: 0.22;
+
+      --vignette-opacity: 0.15;
+    }
+
+    .no-anim { display: none; }
+    @media (prefers-reduced-motion: reduce) {
+      .anim { display: none; }
+      .no-anim { display: block; }
+    }
+  </style>
+
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#0f172a"/>
-      <stop offset="100%" stop-color="#1e293b"/>
+    <!-- Viewport-anchored gradients (no seam when content moves) -->
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
+      <stop offset="0%"  stop-color="var(--bg-start)"/>
+      <stop offset="100%" stop-color="var(--bg-end)"/>
     </linearGradient>
-    <linearGradient id="wave1" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.35"/>
-      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0.35"/>
+
+    <linearGradient id="wave1" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%"  stop-color="var(--wave1-start)" stop-opacity="var(--wave1-opacity)"/>
+      <stop offset="100%" stop-color="var(--wave1-end)"   stop-opacity="var(--wave1-opacity)"/>
     </linearGradient>
-    <linearGradient id="wave2" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#a78bfa" stop-opacity="0.28"/>
-      <stop offset="100%" stop-color="#60a5fa" stop-opacity="0.28"/>
+
+    <linearGradient id="wave2" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%"  stop-color="var(--wave2-start)" stop-opacity="var(--wave2-opacity)"/>
+      <stop offset="100%" stop-color="var(--wave2-end)"   stop-opacity="var(--wave2-opacity)"/>
     </linearGradient>
-    <linearGradient id="wave3" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#f472b6" stop-opacity="0.22"/>
-      <stop offset="100%" stop-color="#fb7185" stop-opacity="0.22"/>
+
+    <linearGradient id="wave3" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%"  stop-color="var(--wave3-start)" stop-opacity="var(--wave3-opacity)"/>
+      <stop offset="100%" stop-color="var(--wave3-end)"   stop-opacity="var(--wave3-opacity)"/>
     </linearGradient>
-    <radialGradient id="vignette" cx="50%" cy="50%" r="75%">
+
+    <radialGradient id="vignette" cx="600" cy="180" r="540" gradientUnits="userSpaceOnUse">
       <stop offset="70%" stop-color="#000000" stop-opacity="0"/>
-      <stop offset="100%" stop-color="#000000" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="var(--vignette-opacity)"/>
     </radialGradient>
+
+    <!-- Continuous wave path spanning 2400px (two periods of 1200px).
+         This avoids any join between separate tiles. -->
+    <symbol id="wave-span" viewBox="0 0 2400 360" preserveAspectRatio="none">
+      <path d="
+        M0,240
+        C200,200 400,280 600,240
+        S1000,280 1200,240
+        S1600,280 1800,240
+        S2200,280 2400,240
+        L2400,360 L0,360 Z
+      " />
+    </symbol>
   </defs>
 
-  <rect width="1200" height="360" fill="url(#bg)"/>
-  <rect width="1200" height="360" fill="url(#vignette)"/>
+  <!-- Background -->
+  <rect x="0" y="0" width="1200" height="360" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1200" height="360" fill="url(#vignette)"/>
 
-  <g>
-    <path id="w1" d="M0,240 C200,200 400,280 600,240 C800,200 1000,280 1200,240 L1200,360 L0,360 Z" fill="url(#wave1)">
-      <animateTransform attributeName="transform" type="translate" values="0 0; -1200 0" dur="18s" repeatCount="indefinite"/>
-      <animate attributeName="d" dur="7s" repeatCount="indefinite"
-        values="M0,240 C200,200 400,280 600,240 C800,200 1000,280 1200,240 L1200,360 L0,360 Z;
-                M0,245 C200,205 400,275 600,245 C800,205 1000,285 1200,245 L1200,360 L0,360 Z;
-                M0,240 C200,200 400,280 600,240 C800,200 1000,280 1200,240 L1200,360 L0,360 Z"/>
-    </path>
+  <!-- Animated waves: a single long path per layer, translated by -1200 for seamless looping -->
+  <g class="anim">
+    <!-- Layer 1 -->
+    <g opacity="1">
+      <use href="#wave-span" x="0" y="0" width="2400" height="360" fill="url(#wave1)">
+        <!-- Scroll exactly one period (1200px) -->
+        <animateTransform attributeName="transform" type="translate"
+          values="0 0; -1200 0" dur="18s" repeatCount="indefinite" calcMode="linear"/>
+        <!-- Subtle vertical bobbing -->
+        <animateTransform attributeName="transform" type="translate" additive="sum"
+          values="0 0; 0 4; 0 0" keyTimes="0; 0.5; 1" dur="7s" repeatCount="indefinite"/>
+      </use>
+    </g>
+
+    <!-- Layer 2 -->
+    <g opacity="0.9">
+      <use href="#wave-span" x="0" y="30" width="2400" height="360" fill="url(#wave2)">
+        <animateTransform attributeName="transform" type="translate"
+          values="0 0; -1200 0" dur="24s" repeatCount="indefinite" calcMode="linear"/>
+        <animateTransform attributeName="transform" type="translate" additive="sum"
+          values="0 0; 0 5; 0 0" keyTimes="0; 0.5; 1" dur="9s" repeatCount="indefinite"/>
+      </use>
+    </g>
+
+    <!-- Layer 3 -->
+    <g opacity="0.8">
+      <use href="#wave-span" x="0" y="60" width="2400" height="360" fill="url(#wave3)">
+        <animateTransform attributeName="transform" type="translate"
+          values="0 0; -1200 0" dur="30s" repeatCount="indefinite" calcMode="linear"/>
+        <animateTransform attributeName="transform" type="translate" additive="sum"
+          values="0 0; 0 6; 0 0" keyTimes="0; 0.5; 1" dur="11s" repeatCount="indefinite"/>
+      </use>
+    </g>
   </g>
 
-  <g opacity="0.9">
-    <path id="w2" d="M0,270 C220,230 440,300 660,270 C880,240 1100,310 1320,280 L1320,360 L0,360 Z" fill="url(#wave2)">
-      <animateTransform attributeName="transform" type="translate" values="0 0; -1200 0" dur="24s" repeatCount="indefinite"/>
-      <animate attributeName="d" dur="9s" repeatCount="indefinite"
-        values="M0,270 C220,230 440,300 660,270 C880,240 1100,310 1320,280 L1320,360 L0,360 Z;
-                M0,275 C220,235 440,295 660,275 C880,245 1100,315 1320,285 L1320,360 L0,360 Z;
-                M0,270 C220,230 440,300 660,270 C880,240 1100,310 1320,280 L1320,360 L0,360 Z"/>
-    </path>
+  <!-- Static fallback -->
+  <g class="no-anim">
+    <use href="#wave-span" x="0" y="0"  width="2400" height="360" fill="url(#wave1)"/>
+    <use href="#wave-span" x="0" y="30" width="2400" height="360" fill="url(#wave2)" opacity="0.9"/>
+    <use href="#wave-span" x="0" y="60" width="2400" height="360" fill="url(#wave3)" opacity="0.8"/>
   </g>
-
-  <g opacity="0.8">
-    <path id="w3" d="M0,300 C240,260 480,330 720,300 C960,270 1200,340 1440,310 L1440,360 L0,360 Z" fill="url(#wave3)">
-      <animateTransform attributeName="transform" type="translate" values="0 0; -1200 0" dur="30s" repeatCount="indefinite"/>
-      <animate attributeName="d" dur="11s" repeatCount="indefinite"
-        values="M0,300 C240,260 480,330 720,300 C960,270 1200,340 1440,310 L1440,360 L0,360 Z;
-                M0,305 C240,265 480,325 720,305 C960,275 1200,345 1440,315 L1440,360 L0,360 Z;
-                M0,300 C240,260 480,330 720,300 C960,270 1200,340 1440,310 L1440,360 L0,360 Z"/>
-    </path>
-  </g>
-
-  <text x="50%" y="48" text-anchor="middle" fill="#94a3b8" font-size="20" font-family="system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, 'Helvetica Neue', Arial">
-  </text>
 </svg>
