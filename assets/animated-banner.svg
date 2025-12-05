@@ -17,16 +17,13 @@
       --bg-start: #0f172a;
       --bg-end:   #1e293b;
 
-      --wave1-start: #38bdf8;
-      --wave1-end:   #22d3ee;
+      --wave1-color: #38bdf8;
       --wave1-opacity: 0.35;
 
-      --wave2-start: #a78bfa;
-      --wave2-end:   #60a5fa;
+      --wave2-color: #a78bfa;
       --wave2-opacity: 0.28;
 
-      --wave3-start: #f472b6;
-      --wave3-end:   #fb7185;
+      --wave3-color: #f472b6;
       --wave3-opacity: 0.22;
 
       --vignette-opacity: 0.15;
@@ -46,19 +43,20 @@
       <stop offset="100%" stop-color="var(--bg-end)"/>
     </linearGradient>
 
+    <!-- Synchronize colors for seamless animation -->
     <linearGradient id="wave1" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
-      <stop offset="0%"  stop-color="var(--wave1-start)" stop-opacity="var(--wave1-opacity)"/>
-      <stop offset="100%" stop-color="var(--wave1-end)"   stop-opacity="var(--wave1-opacity)"/>
+      <stop offset="0%"  stop-color="var(--wave1-color)" stop-opacity="var(--wave1-opacity)"/>
+      <stop offset="100%" stop-color="var(--wave1-color)" stop-opacity="var(--wave1-opacity)"/>
     </linearGradient>
 
     <linearGradient id="wave2" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
-      <stop offset="0%"  stop-color="var(--wave2-start)" stop-opacity="var(--wave2-opacity)"/>
-      <stop offset="100%" stop-color="var(--wave2-end)"   stop-opacity="var(--wave2-opacity)"/>
+      <stop offset="0%"  stop-color="var(--wave2-color)" stop-opacity="var(--wave2-opacity)"/>
+      <stop offset="100%" stop-color="var(--wave2-color)" stop-opacity="var(--wave2-opacity)"/>
     </linearGradient>
 
     <linearGradient id="wave3" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
-      <stop offset="0%"  stop-color="var(--wave3-start)" stop-opacity="var(--wave3-opacity)"/>
-      <stop offset="100%" stop-color="var(--wave3-end)"   stop-opacity="var(--wave3-opacity)"/>
+      <stop offset="0%"  stop-color="var(--wave3-color)" stop-opacity="var(--wave3-opacity)"/>
+      <stop offset="100%" stop-color="var(--wave3-color)" stop-opacity="var(--wave3-opacity)"/>
     </linearGradient>
 
     <radialGradient id="vignette" cx="600" cy="180" r="540" gradientUnits="userSpaceOnUse">
