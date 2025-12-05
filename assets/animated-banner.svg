@@ -7,48 +7,49 @@
   role="img"
   aria-labelledby="title desc"
 >
-  <title id="title">Seamless animated waves background (Auto light/dark)</title>
+  <title id="title">Seamless animated waves background (Auto light/dark, no hue seam)</title>
   <desc id="desc">
-    A background that adapts to system theme (light/dark) with three continuous wave layers moving in a perfectly seamless loop, plus subtle vertical bobbing. Respects reduced motion preferences.
+    A background that adapts to system theme (light/dark) with three continuous wave layers moving in a perfectly seamless loop, with subtle vertical bobbing. Colors at the start/end of each gradient match to eliminate visible seams. Respects reduced motion preferences.
   </desc>
 
   <style>
-    /* Default: dark theme variables */
+    /* Default: dark theme */
     :root {
       --bg-start: #0f172a; /* slate-900-ish */
       --bg-end:   #1e293b; /* slate-800-ish */
 
-      --wave1-start: #38bdf8; /* sky-400 */
-      --wave1-end:   #22d3ee; /* cyan-400 */
+      /* Wave hues: A = edge color, B = mid accent */
+      --wave1-a: #38bdf8; /* sky-400 */
+      --wave1-b: #22d3ee; /* cyan-400 */
       --wave1-opacity: 0.35;
 
-      --wave2-start: #a78bfa; /* violet-400 */
-      --wave2-end:   #60a5fa; /* blue-400 */
+      --wave2-a: #a78bfa; /* violet-400 */
+      --wave2-b: #60a5fa; /* blue-400 */
       --wave2-opacity: 0.28;
 
-      --wave3-start: #f472b6; /* pink-400 */
-      --wave3-end:   #fb7185; /* rose-400 */
+      --wave3-a: #f472b6; /* pink-400 */
+      --wave3-b: #fb7185; /* rose-400 */
       --wave3-opacity: 0.22;
 
       --vignette-opacity: 0.15;
     }
 
-    /* Light theme overrides via system preference */
+    /* Light theme via system preference */
     @media (prefers-color-scheme: light) {
       :root {
         --bg-start: #f8fafc; /* slate-50 */
         --bg-end:   #e2e8f0; /* slate-200 */
 
-        --wave1-start: #0ea5e9; /* sky-500 */
-        --wave1-end:   #22d3ee; /* cyan-400 */
+        --wave1-a: #0ea5e9; /* sky-500 */
+        --wave1-b: #22d3ee; /* cyan-400 */
         --wave1-opacity: 0.24;
 
-        --wave2-start: #6366f1; /* indigo-500 */
-        --wave2-end:   #60a5fa; /* blue-400 */
+        --wave2-a: #6366f1; /* indigo-500 */
+        --wave2-b: #60a5fa; /* blue-400 */
         --wave2-opacity: 0.18;
 
-        --wave3-start: #f43f5e; /* rose-500 */
-        --wave3-end:   #fb7185; /* rose-400 */
+        --wave3-a: #f43f5e; /* rose-500 */
+        --wave3-b: #fb7185; /* rose-400 */
         --wave3-opacity: 0.16;
 
         --vignette-opacity: 0.10;
@@ -74,20 +75,24 @@
       <stop offset="100%" stop-color="#000000" stop-opacity="var(--vignette-opacity)"/>
     </radialGradient>
 
-    <!-- Seamless hue: 1200px period + repeat -->
+    <!-- Seamless wave gradients: 0% and 100% use the same color (A); 50% is accent (B).
+         1200px period + repeat ensures no hue jump at loop boundaries. -->
     <linearGradient id="wave1" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse" spreadMethod="repeat">
-      <stop offset="0%"  stop-color="var(--wave1-start)" stop-opacity="var(--wave1-opacity)"/>
-      <stop offset="100%" stop-color="var(--wave1-end)"   stop-opacity="var(--wave1-opacity)"/>
+      <stop offset="0%"   stop-color="var(--wave1-a)" stop-opacity="var(--wave1-opacity)"/>
+      <stop offset="50%"  stop-color="var(--wave1-b)" stop-opacity="var(--wave1-opacity)"/>
+      <stop offset="100%" stop-color="var(--wave1-a)" stop-opacity="var(--wave1-opacity)"/>
     </linearGradient>
 
     <linearGradient id="wave2" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse" spreadMethod="repeat">
-      <stop offset="0%"  stop-color="var(--wave2-start)" stop-opacity="var(--wave2-opacity)"/>
-      <stop offset="100%" stop-color="var(--wave2-end)"   stop-opacity="var(--wave2-opacity)"/>
+      <stop offset="0%"   stop-color="var(--wave2-a)" stop-opacity="var(--wave2-opacity)"/>
+      <stop offset="50%"  stop-color="var(--wave2-b)" stop-opacity="var(--wave2-opacity)"/>
+      <stop offset="100%" stop-color="var(--wave2-a)" stop-opacity="var(--wave2-opacity)"/>
     </linearGradient>
 
     <linearGradient id="wave3" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse" spreadMethod="repeat">
-      <stop offset="0%"  stop-color="var(--wave3-start)" stop-opacity="var(--wave3-opacity)"/>
-      <stop offset="100%" stop-color="var(--wave3-end)"   stop-opacity="var(--wave3-opacity)"/>
+      <stop offset="0%"   stop-color="var(--wave3-a)" stop-opacity="var(--wave3-opacity)"/>
+      <stop offset="50%"  stop-color="var(--wave3-b)" stop-opacity="var(--wave3-opacity)"/>
+      <stop offset="100%" stop-color="var(--wave3-a)" stop-opacity="var(--wave3-opacity)"/>
     </linearGradient>
 
     <!-- Continuous wave path spanning 2400px (two 1200px periods) -->
