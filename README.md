@@ -87,18 +87,6 @@ I'm seeking summer internship opportunities where I can apply my analytical and 
   <img src="https://github-readme-stats.vercel.app/api?username=AJBogo9&show_icons=true&theme=default" />
 </picture>
 
-<picture>
-  <source 
-    srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=AJBogo9&layout=compact&theme=dark"
-    media="(prefers-color-scheme: dark)"
-  />
-  <source
-    srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=AJBogo9&layout=compact&theme=default"
-    media="(prefers-color-scheme: light)"
-  />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AJBogo9&layout=compact&theme=default" />
-</picture>
-
 ## 📫 Get In Touch
 
 Feel free to connect with me on [LinkedIn](www.linkedin.com/in/bogo9). I'm always open to discussing interesting problems, collaboration opportunities, or potential roles.
