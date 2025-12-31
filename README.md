@@ -44,6 +44,7 @@ I'm pragmatic about technology choices—I evaluate and learn whatever tools bes
 
 ![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
 
 ## 🚀 Featured Projects
 
@@ -71,7 +72,7 @@ Developed an analytics platform where I designed the data schema, optimized data
 
 ## 🎯 Currently
 
-I'm seeking summer internship opportunities where I can apply my analytical and technical skills to solve meaningful problems. I'm particularly interested in roles that involve data science, machine learning, or mathematical optimization.
+I'm seeking internship opportunities where I can apply my analytical and technical skills to solve meaningful problems. I'm particularly interested in roles that involve data science, machine learning, or mathematical optimization.
 
 ## 📊 GitHub Stats
 
