@@ -2,14 +2,14 @@
 
 I'm a Master's student in Data Science at Aalto University with a background in Computer Science. My work focuses on solving challenging mathematical and statistical problems through data analysis, optimization, and machine learning.
 
-## 🎓 Background
+## Background
 
 - **M.Sc. in Data Science** - Aalto University (In Progress)
 - **B.Sc. in Computer Science** - Aalto University
 - Strong foundation in mathematics and statistics
 - Bachelor's thesis on graph-enhanced recommender systems
 
-## 🔬 What I Do
+## What I Do
 
 I specialize in applying rigorous mathematical and statistical methods to analyze and optimize systems. My interests span:
 
@@ -20,7 +20,7 @@ I specialize in applying rigorous mathematical and statistical methods to analyz
 
 I'm pragmatic about technology choices—I evaluate and learn whatever tools best suit the problem at hand.
 
-## 💻 Technical Skills
+## Technical Skills
 
 **Languages**
 
@@ -48,7 +48,7 @@ I'm pragmatic about technology choices—I evaluate and learn whatever tools bes
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
 
-## 🚀 Featured Projects
+## Featured Projects
 
 ### [Hierarchical Bayesian Analysis of Aviation Safety](https://github.com/AJBogo9/BDA-project)
 Investigated fatality rate patterns across aircraft manufacturers using hierarchical Bayesian models in R with brms. Our analysis revealed persistent manufacturer-level differences in safety outcomes despite standardization efforts, with partial pooling models achieving the best predictive performance.
@@ -65,18 +65,18 @@ Bachelor's thesis comparing traditional recommendation algorithms with knowledge
 
 **Technologies:** Python, Graph Neural Networks, Knowledge Graph Embeddings
 
-## 💼 Experience
+## Experience
 
 **Full Stack Developer Intern** - Droppe (via Aalto University)  
 Developed an analytics platform where I designed the data schema, optimized data pipelines, and built UI components including a no-code filter system for chart creation. Led documentation efforts and pitched the project to finals of the course quality awards (Top 3).
 
 **Technologies:** TypeScript, React, Node.js, Google Cloud Platform, BigQuery
 
-## 🎯 Currently
+## Currently
 
 I'm seeking internship opportunities where I can apply my analytical and technical skills to solve meaningful problems. I'm particularly interested in roles that involve data science, machine learning, or mathematical optimization.
 
-## 📊 GitHub Stats
+## GitHub Stats
 
 <picture>
   <source 
@@ -90,7 +90,7 @@ I'm seeking internship opportunities where I can apply my analytical and technic
   <img src="https://github-readme-stats-coral-alpha-83.vercel.app/api?username=AJBogo9&show_icons=true&theme=default" />
 </picture>
 
-## 📫 Get In Touch
+## Get In Touch
 
 Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/bogo9). I'm always open to discussing interesting problems, collaboration opportunities, or potential roles.
 
