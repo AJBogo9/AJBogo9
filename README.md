@@ -1,15 +1,15 @@
-# Hi, I'm Andreas Bogossian 👋
+# Hi, I'm Andreas Bogossian
 
 I'm a Master's student in Data Science at Aalto University with a background in Computer Science. My work focuses on solving challenging mathematical and statistical problems through data analysis, optimization, and machine learning.
 
-## 🎓 Background
+## Background
 
 - **M.Sc. in Data Science** - Aalto University (In Progress)
 - **B.Sc. in Computer Science** - Aalto University
 - Strong foundation in mathematics and statistics
 - Bachelor's thesis on graph-enhanced recommender systems
 
-## 🔬 What I Do
+## What I Do
 
 I specialize in applying rigorous mathematical and statistical methods to analyze and optimize systems. My interests span:
 
@@ -20,7 +20,7 @@ I specialize in applying rigorous mathematical and statistical methods to analyz
 
 I'm pragmatic about technology choices—I evaluate and learn whatever tools best suit the problem at hand.
 
-## 💻 Technical Skills
+## Technical Skills
 
 **Languages**
 
@@ -51,7 +51,7 @@ I'm pragmatic about technology choices—I evaluate and learn whatever tools bes
 ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 
-## 🚀 Featured Projects
+## Featured Projects
 
 ### [Activity Challenge Bot](https://github.com/AJBogo9/activity-challenge-bot)
 A production-ready Telegram bot for tracking physical activities and running guild-based fitness competitions. Features a comprehensive point system based on the 2024 Physical Activity Compendium, with interactive wizards for activity logging and a React-based analytics dashboard.
@@ -80,18 +80,18 @@ Bachelor's thesis comparing traditional recommendation algorithms with knowledge
 
 **Technologies:** Python, Graph Neural Networks, Knowledge Graph Embeddings
 
-## 💼 Experience
+## Experience
 
 **Full Stack Developer Intern** - Droppe (via Aalto University)  
 Developed an analytics platform where I designed the data schema, optimized data pipelines, and built UI components including a no-code filter system for chart creation. Led documentation efforts and pitched the project to finals of the course quality awards (Top 3).
 
 **Technologies:** TypeScript, React, Node.js, Google Cloud Platform, BigQuery
 
-## 🎯 Currently
+## Currently
 
 I'm seeking internship opportunities where I can apply my analytical and technical skills to solve meaningful problems. I'm particularly interested in roles that involve data science, machine learning, or mathematical optimization.
 
-## 📊 GitHub Stats
+## GitHub Stats
 
 <picture>
   <source 
@@ -105,7 +105,7 @@ I'm seeking internship opportunities where I can apply my analytical and technic
   <img src="https://github-readme-stats-coral-alpha-83.vercel.app/api?username=AJBogo9&show_icons=true&theme=default" />
 </picture>
 
-## 📫 Get In Touch
+## Get In Touch
 
 Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/bogo9). I'm always open to discussing interesting problems, collaboration opportunities, or potential roles.
 
