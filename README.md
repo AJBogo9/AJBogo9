@@ -35,20 +35,35 @@ I'm pragmatic about technology choices—I evaluate and learn whatever tools bes
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=for-the-badge&logo=python&logoColor=white)
 
-**Web Development**
+**Web Development & DevOps**
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 
 **Cloud & Tools**
 
 ![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 
 ## 🚀 Featured Projects
+
+### [Activity Challenge Bot](https://github.com/AJBogo9/activity-challenge-bot)
+A production-ready Telegram bot for tracking physical activities and running guild-based fitness competitions. Features a comprehensive point system based on the 2024 Physical Activity Compendium, with interactive wizards for activity logging and a React-based analytics dashboard.
+
+**Key Features:**
+- Multi-step conversation flows for intuitive activity logging
+- Guild-based competition system with leaderboards and rankings
+- Real-time statistics dashboard with data visualizations
+- Production deployment on Kubernetes with Talos OS
+- Infrastructure as Code with Terraform and Flux CD
+
+**Technologies:** TypeScript, Bun, Telegram Bot API, PostgreSQL, React, Vite, Tailwind CSS, Kubernetes, Docker, Terraform, Hetzner Cloud
 
 ### [Hierarchical Bayesian Analysis of Aviation Safety](https://github.com/AJBogo9/BDA-project)
 Investigated fatality rate patterns across aircraft manufacturers using hierarchical Bayesian models in R with brms. Our analysis revealed persistent manufacturer-level differences in safety outcomes despite standardization efforts, with partial pooling models achieving the best predictive performance.
