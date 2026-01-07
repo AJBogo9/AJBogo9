@@ -13,7 +13,6 @@ I'm a Master's student in Data Science at Aalto University with a background in 
 
 I specialize in applying rigorous mathematical and statistical methods to analyze and optimize systems. My interests span:
 
-- **Bayesian Data Analysis** - Building hierarchical models for complex inference problems
 - **Machine Learning** - Developing predictive models and exploring their implications
 - **Optimization** - Solving computational challenges with mathematical approaches
 - **Knowledge Graphs** - Leveraging graph-based methods for recommendation systems
