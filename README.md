@@ -93,14 +93,14 @@ I'm seeking internship opportunities where I can apply my analytical and technic
 
 <picture>
   <source 
-    srcset="https://github-readme-stats-coral-alpha-83.vercel.app/api?username=AJBogo9&show_icons=true&theme=dark"
+    srcset="https://github-readme-stats-coral-alpha-83.vercel.app/api?username=AJBogo9&show_icons=true&theme=dark&include_all_commits=true"
     media="(prefers-color-scheme: dark)"
   />
   <source
-    srcset="https://github-readme-stats-coral-alpha-83.vercel.app/api?username=AJBogo9&show_icons=true&theme=default"
+    srcset="https://github-readme-stats-coral-alpha-83.vercel.app/api?username=AJBogo9&show_icons=true&theme=default&include_all_commits=true"
     media="(prefers-color-scheme: light)"
   />
-  <img src="https://github-readme-stats-coral-alpha-83.vercel.app/api?username=AJBogo9&show_icons=true&theme=default" />
+  <img src="https://github-readme-stats-coral-alpha-83.vercel.app/api?username=AJBogo9&show_icons=true&theme=default&include_all_commits=true" />
 </picture>
 
 ## Get In Touch
