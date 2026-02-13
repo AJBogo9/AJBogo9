@@ -14,7 +14,7 @@ I'm a Master's student in Data Science at Aalto University with a background in 
 I specialize in applying rigorous mathematical and statistical methods to analyze and optimize systems. My interests span:
 
 - **Machine Learning** - Developing predictive models and exploring their implications
-- **Software engineering** - Creating production quality software applications
+- **Software engineering** - Creating production quality software systems
 - **Optimization** - Solving computational challenges with mathematical approaches
 
 I'm pragmatic about technology choices—I evaluate and learn whatever tools best suit the problem at hand.
