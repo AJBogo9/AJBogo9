@@ -78,17 +78,6 @@ Bachelor's thesis comparing traditional recommendation algorithms with knowledge
 
 **Technologies:** Python, Graph Neural Networks, Knowledge Graph Embeddings
 
-## Experience
-
-**Full Stack Developer Intern** - Droppe (via Aalto University)  
-Developed an analytics platform where I designed the data schema, optimized data pipelines, and built UI components including a no-code filter system for chart creation. Led documentation efforts and pitched the project to finals of the course quality awards (Top 3).
-
-**Technologies:** TypeScript, React, Node.js, Google Cloud Platform, BigQuery
-
-## Currently
-
-I'm seeking internship opportunities where I can apply my analytical and technical skills to solve meaningful problems. I'm particularly interested in roles that involve data science, machine learning, or mathematical optimization.
-
 ## GitHub Stats
 
 <picture>
@@ -102,11 +91,3 @@ I'm seeking internship opportunities where I can apply my analytical and technic
   />
   <img src="https://github-readme-stats-coral-alpha-83.vercel.app/api?username=AJBogo9&show_icons=true&theme=default" />
 </picture>
-
-## Get In Touch
-
-Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/bogo9). I'm always open to discussing interesting problems, collaboration opportunities, or potential roles.
-
----
-
-*When I'm not analyzing data, you'll find me training for triathlons or on the basketball court.*
