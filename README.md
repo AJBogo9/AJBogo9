@@ -49,35 +49,6 @@ I'm pragmatic about technology choices—I evaluate and learn whatever tools bes
 ![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
 ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
 
-## Featured Projects
-
-### [Activity Challenge Bot](https://github.com/AJBogo9/activity-challenge-bot)
-A production-ready Telegram bot for tracking physical activities and running guild-based fitness competitions. Features a comprehensive point system based on the 2024 Physical Activity Compendium, with interactive wizards for activity logging and a React-based analytics dashboard.
-
-**Key Features:**
-- Multi-step conversation flows for intuitive activity logging
-- Guild-based competition system with leaderboards and rankings
-- Real-time statistics dashboard with data visualizations
-- Production deployment on Kubernetes with Talos OS
-- Infrastructure as Code with Terraform and Flux CD
-
-**Technologies:** TypeScript, Bun, Telegram Bot API, PostgreSQL, React, Vite, Tailwind CSS, Kubernetes, Docker, Terraform, Hetzner Cloud
-
-### [Hierarchical Bayesian Analysis of Aviation Safety](https://github.com/AJBogo9/BDA-project)
-Investigated fatality rate patterns across aircraft manufacturers using hierarchical Bayesian models in R with brms. Our analysis revealed persistent manufacturer-level differences in safety outcomes despite standardization efforts, with partial pooling models achieving the best predictive performance.
-
-**Technologies:** R, brms, tidyverse, bayesplot, ggplot2
-
-### [iPhone Premium Analysis: Hardware vs. Price](https://github.com/AJBogo9/phone-price-prediction)
-Built regression models to assess whether Apple smartphones are overpriced relative to their hardware specifications. Tested multiple algorithms (linear regression, decision trees, random forest, neural networks) and found that newer iPhone models carry larger premiums, with all Apple devices priced above hardware-justified levels.
-
-**Technologies:** Python, scikit-learn, pandas, seaborn
-
-### [Graph-Enhanced Recommender Systems](https://github.com/AJBogo9/Bachelor-s-thesis-recommender-systems-)
-Bachelor's thesis comparing traditional recommendation algorithms with knowledge graph-based approaches. Explored knowledge graph embeddings and graph neural networks, analyzing the trade-offs and optimal use cases for each methodology.
-
-**Technologies:** Python, Graph Neural Networks, Knowledge Graph Embeddings
-
 ## GitHub Stats
 
 <picture>
