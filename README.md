@@ -1,6 +1,6 @@
 # Hi, I'm Andreas Bogossian
 
-I'm a Master's student in Data Science at Aalto University with a background in Computer Science. My work focuses on solving challenging mathematical and statistical problems through data analysis, optimization, and machine learning.
+I'm a Master's student in Data Science at Aalto University with a background in Computer Science and Math. My work focuses on solving challenging mathematical and statistical problems through data analysis, optimization, and machine learning.
 
 ## Background
 
@@ -17,7 +17,7 @@ I specialize in applying rigorous mathematical and statistical methods to analyz
 - **Software engineering** - Creating production quality software systems
 - **Optimization** - Solving computational challenges with mathematical approaches
 
-I'm pragmatic about technology choices—I evaluate and learn whatever tools best suit the problem at hand.
+I'm pragmatic about technology choices. I evaluate and learn whatever tools best suit the problem at hand.
 
 ## 💻 Technical Skills
 
@@ -48,17 +48,3 @@ I'm pragmatic about technology choices—I evaluate and learn whatever tools bes
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
 ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
-
-## GitHub Stats
-
-<picture>
-  <source 
-    srcset="https://github-readme-stats-coral-alpha-83.vercel.app/api?username=AJBogo9&show_icons=true&theme=dark"
-    media="(prefers-color-scheme: dark)"
-  />
-  <source
-    srcset="https://github-readme-stats-coral-alpha-83.vercel.app/api?username=AJBogo9&show_icons=true&theme=default"
-    media="(prefers-color-scheme: light)"
-  />
-  <img src="https://github-readme-stats-coral-alpha-83.vercel.app/api?username=AJBogo9&show_icons=true&theme=default" />
-</picture>
