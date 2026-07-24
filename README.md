@@ -1,4 +1,4 @@
-# Hi, I'm Andreas Bogossian
+# Hi, I'm Andreas
 
 I'm a Master's student in Data Science at Aalto University with a background in Computer Science and Math. My work focuses on solving challenging mathematical and statistical problems through data analysis, optimization, and machine learning.
 
